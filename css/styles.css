@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+/*CABECERA*/
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #40513B;
+}
+
+.logo{
+    padding: 25px 0;
+}
+
+.logo img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 430px;
+    margin: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #E9EFC0;
+}
+
+.menu a:hover{
+    color: #191825;
+}
+
+/*FIN DE CABECERA*/
+
+/*BANNER PRINCIPAL*/
+
+.bannerindex{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/yoongi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerindex > div{
+    width: 100%;
+    height: 100%;
+    background-color: #e9efc025;
+}
+
+.llamada-accion{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.llamada-accion p{
+    font-size: 24px;
+    color: #EDF1D6;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.llamada-accion h2{
+    font-size: 60px;
+    color: #EDF1D6;
+    width: 100%;
+    padding: 20px 0;
+    max-width: 470px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.llamada-accion a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    background-color: #4E944F;
+    margin-top: 35px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.llamada-accion a:hover{
+    background-color: #83BD75;
+}
+
+/*FIN DEL BANNER PRINCIPAL*/
+
+/*BIENVENIDA*/
+
+.bienvenida{
+    width: 100%;
+    background-color: #40513B;
+    margin-top: 0px;
+    padding-bottom: 32px;
+    color: #EDF1D6;
+    text-align: center;
+}
+
+.bienvenida h3{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bienvenida p{
+    font-size: 15px;
+    padding-bottom: 40px;
+    /*altura de línea a línea*/
+    line-height: 1.7em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.botones a{
+    display: inline-block;
+    padding: 5px 15px 5px;
+    background-color: #EDF1D6;
+    color: #40513B;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+  }
+  
+  .botones a:hover {
+    background-color: #865DFF;
+    color: white;
+  }  
+
+/*FIN DE LA BIENVENIDA*/
+
+/*CONOCENOS*/
+
+.nosotros {
+    padding-top: 30px;
+    padding-bottom: 88px;
+}
+
+.nosotros >.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-equipo{
+    width: 100%;
+    max-width: 570px;
+    padding-top: 50px;
+}
+
+.foto-equipo img{
+    width: 100%;
+}
+
+.conocenos{
+    text-align: center;
+    padding: 15px 0px;
+    max-width: 600px;
+}
+
+.conocenos p:nth-child(1){
+    font-size: 30px;
+    color: #4CAF50;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #83BD75;
+}
+
+.conocenos h3{
+    padding-top: 30px;
+    padding-bottom: 38px;
+    color: #191825;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conocenos h4{
+    padding-top: 30px;
+    padding-bottom: 38px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #191825;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conocenos a{
+    font-size: 15px;
+    color: #4E944F;
+    padding-top: 100px;
+    padding-right: 5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+/*FIN DEL CONOCENOS*/
+
+ /*PIE DE PÁGINA*/
+
+ .center-footer{
+    background-color: #40513B;
+ }
+
+ .center-footer .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+ .center-footer .widget{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #E9EFC0;
+    max-width: 270px;
+    margin: 0 auto;
+ }
+
+ .center-footer .widget h4{
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .center-footer .widget p{
+    font-size: 12px;
+ }
+
+ .bottom-footer{
+    background-color: white;
+    height: 4.5px;
+ }
+
+ .bottom-footer p{
+    color: #191825;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 4.5px;
+ }
+
+ /*FIN PIE DE PÁGINA*/
